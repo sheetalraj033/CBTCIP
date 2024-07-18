@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="https://tse4.mm.bing.net/th?id=OIP.16btkDvaBBJc4Ei7DdKWVAHaIW&pid=Api&P=0&h=180" alt="Search Icon"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.ncxIQZJZjDxSaVa_Y3UqmgHaHa&pid=Api&P=0&h=180" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.1ZYsx909iSElh13IuNwEPAHaHa&pid=Api&P=0&h=180" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.QzhgS1TMRzAj2L4Icay2zQHaHa&pid=Api&P=0&h=180" alt="Wind Speed Icon">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
